@@ -19,12 +19,14 @@
             "polyfills": [
               "zone.js"
             ],
+           
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -96,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "01a83e34-50e5-471c-82e5-4b009733f69e"
   }
 }
